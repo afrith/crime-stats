@@ -50,6 +50,12 @@ In two cases new police stations have been established recently, but do not appe
 
 I have cleaned the spatial data using PostGIS's [ST_CoverageClean](https://postgis.net/docs/manual-3.6/ST_CoverageClean.html) so that it forms a polygonal coverage with no gaps or overlaps.
 
+## Files
+
+* `police_stations.csv`: list of police districts, including name, population according to Census 2022, area in km², and codes indicating which local municipality, district municipality, and province the police station is in.
+* `police_stations.gpkg`: spatial data for the boundaries of the police districts, including all the fields in the CSV.
+* `crime-stats.csv`: count of crime incidents reported per police station, crime category (see next section), year and month.
+
 ## Crime categories
 
 SAPS reports its crime statistics under the following hierarchy of crime categories.
