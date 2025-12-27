@@ -1,3 +1,2 @@
-*.csv filter=lfs diff=lfs merge=lfs -text
-*.gpkg filter=lfs diff=lfs merge=lfs -text
-* !text !filter !merge !diff
+crime-stats.csv filter=lfs diff=lfs merge=lfs -text
+police_stations.gpkg filter=lfs diff=lfs merge=lfs -text
