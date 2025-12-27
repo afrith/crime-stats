@@ -50,6 +50,55 @@ In two cases new police stations have been established recently, but do not appe
 
 I have cleaned the spatial data using PostGIS's [ST_CoverageClean](https://postgis.net/docs/manual-3.6/ST_CoverageClean.html) so that it forms a polygonal coverage with no gaps or overlaps.
 
+## Crime categories
+
+SAPS reports its crime statistics under the following hierarchy of crime categories.
+
+* 17 Community reported serious Crime
+  * Contact crime (Crimes against the person)
+    * Murder
+    * Sexual offences
+      * Rape
+      * Sexual assault
+      * Attempted sexual offences
+      * Contact sexual offences
+    * Attempted murder
+    * Assault with the intent to inflict grievous bodily harm
+    * Common assault
+    * Common robbery
+    * Robbery with aggravating circumstances
+      * TRIO Crime
+        * Carjacking
+        * Robbery at residential premises
+        * Robbery at non-residential premises
+      * Robbery of cash in transit
+      * Bank robbery
+      * Truck hijacking
+  * Contact-related Crime
+    * Arson
+    * Malicious damage to property
+  * Property-related Crime
+    * Burglary at non-residential premises
+    * Burglary at residential premises
+    * Theft of motor vehicle and motorcycle
+    * Theft out of or from motor vehicle
+    * Stock-theft
+  * Other serious Crime
+    * All theft not mentioned elsewhere
+    * Commercial crime
+    * Shoplifting
+* Crime detected as a result of police action
+  * Illegal possession of firearms and ammunition
+  * Drug-related crime
+  * Driving under the influence of alcohol or drugs
+  * Sexual offences detected as a result of police action
+* Culpable homicide
+* Public violence
+* Crimen injuria
+* Neglect and ill-treatment of children
+* Kidnapping
+* Abduction
+
 ## License
 
 Neither SAPS nor Stats SA explicitly state terms of use for their data. In my opinion, this is public information that should be freely redistributable under the Promotion of Access to Information Act and section 32(1)(a) of the Constitution.
