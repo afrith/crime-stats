@@ -1,6 +1,6 @@
 # South Africa Crime Stats
 
-This repository contains South Africa's monthly crime statistics from January 2020 to June 2025, extracted from the quarterly reports published by SAPS. It also includes spatial data of police district boundaries, and population counts for the police districts from Census 2022.
+This repository contains South Africa's monthly crime statistics from January 2020 to September 2025, extracted from the quarterly reports published by SAPS. It also includes spatial data of police district boundaries, and population counts for the police districts from Census 2022.
 
 ## Sources
 
